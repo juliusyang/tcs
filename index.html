@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Example</title>
+        <title>TCS Concert Tickets</title>
     </head>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <p>Buy a ticket to our concert!</p>
+        <stripe-buy-button
+          buy-button-id="buy_btn_1Rv9xZFMHzyRHAJXwrIPNYOI"
+          publishable-key="pk_test_51Rv8s1FMHzyRHAJX3xQNgBnCWTUVanNdvwwM0SzycbGAelqNNda54GvYZ30zq9RYpJMBLWEnoKaK9JTFxhqmhDC200Bxn6DWlD"
+        >
+        </stripe-buy-button>
     </body>
 </html>
+
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
